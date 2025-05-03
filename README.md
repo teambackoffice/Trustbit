@@ -1,0 +1,7 @@
+## Trustbit
+
+Trustbit
+
+#### License
+
+mit
