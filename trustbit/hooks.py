@@ -227,3 +227,25 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            [
+                "module",
+                "in",
+                "Trustbit"
+            ]
+        ]
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": [
+            [
+                "module",
+                "in",
+                "Trustbit"
+            ]
+        ]
+    },
+]
