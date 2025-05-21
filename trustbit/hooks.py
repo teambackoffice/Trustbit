@@ -32,6 +32,11 @@ app_license = "mit"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+# JS injection
+doctype_js = {
+    "Purchase Invoice": "public/purchase_invoice.js"
+}
+
 
 # Svg Icons
 # ------------------
@@ -128,7 +133,8 @@ app_license = "mit"
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
 # 	}
-# }
+# }# hooks.py
+
 
 # Scheduled Tasks
 # ---------------
